@@ -1,0 +1,16 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf500
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 CODEBOOK for assignment\
+\
+The tidied data frame contains the data from test and training sets, each of which has been summarized over 561 dimensions to generate mean and standard deviation.\
+\
+The dataset has been organized into the following columns:\
+1. Datatype: Whether data is from the training set or the test set\
+2. Subject ID: The number denoting the subject, ranging 1-30\
+2. ActivityID: The specific activity for which data was collected. The ID (string was established based on the \'91activity_labels.txt\'92 file supplied with original data set. It can take one of 6 levels.\
+3. The selected dimensions, which contain either \'91mean\'92 or \'91std\'92 in the column name. Out of 561, 79 were picked.}
